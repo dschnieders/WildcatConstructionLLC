@@ -39,19 +39,60 @@
       <p>Wildcat Construction LLC has been a part of the Little Apple area for the last twenty five years. We can handle your smallest day job to your largest commercial endeavor. Check out our previous projects above, or give us a call to set up free consultation for your next project.</p>
 	  </article>
     <article class="footer_column"><h3>Request more information</h3>
-      <label for="textfield">Name:</label>
-      <input type="text" name="textfield" id="textfield">
-		<br/>
-      <label for="email">Email:</label>
-    <input type="email" name="email" id="email">
-    <br/>
-    <label for="number">Phone Number:</label>
-    <input type="number" name="number" id="number">
-    <br/>
-    <label for="comment">Question/Comments:</label>
-    <input type="comment" name="comment" id="comment">
-    <br/>
-		<button type="button">Sumbit</button>
+      <html>
+<head>
+<title>Feedback Form</title>
+</head>
+<body>
+<center>
+<h1>Feedback form</h1>
+
+
+<form action="http://www.formbuddy.com/cgi-bin/form.pl" method="post">
+<input type="hidden" name="username" value="dschnieders">
+<input type="hidden" name="reqd" value="0">
+<input type="hidden" name="url" value="https://dschnieders.github.io/WildcatConstructionLLC/Thanks.html">
+
+
+<table border="0">
+<tr>
+<td align="right"><b>Name:</b>
+<td><input type="text" name="visitor_name" size="36" maxlength="100">
+</tr>
+<tr>
+<td align="right"><b>E-Mail:</b>
+<td><input type="text" name="e-mail" size="36" maxlength="100">
+</tr>
+<tr>
+<td align="right"><b>Phone:</b>
+<td><input type="text" name="phone" size="36" maxlength="100">
+</tr>
+<tr>
+<td align="right"><b>How did you find us?:</b>
+<td><select name="found_through">
+<option value="Search Engine">Search Engine
+<option value="Newspaper/Magazine">Newspaper/Magazine</option>
+<option value="Television/Radio">Television/Radio</option>
+<option value="Online Advertising">Online Advertising</option>
+<option value="Offline Advertising">Offline Advertising</option>
+<option value="Word of mouth">Word of mouth</option>
+<option value="Other">Other</option>
+</select>
+</tr>
+</table>
+
+
+<p><b>Comments/Suggestions</b>
+<br><textarea name="comments" rows="5" cols="36">
+</textarea>
+<p><input type="submit" value="Submit Form"><input type="reset" value="Reset Form">
+</form>
+<p><a href="http://www.formbuddy.com/" target="_blank"><b>Form Processing - Powered by FormBuddy.com</b></a>
+
+</center>
+</body>
+</html>
+
 </article>
     
   </footer>
